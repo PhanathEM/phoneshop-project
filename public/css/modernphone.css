@@ -1,0 +1,26 @@
+.product-scroll {
+    scroll-snap-type: x mandatory;
+}
+
+.product-card {
+    width: 200px;
+    position: relative;
+    scroll-snap-align: start;
+}
+
+.product-card img {
+    height: 160px;
+    object-fit: contain;
+}
+
+.product-card .badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.cart-btn {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}

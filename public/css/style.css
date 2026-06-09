@@ -1,0 +1,29 @@
+/* 5 columns layout */
+.col-5-custom {
+    width: 20%;
+}
+
+/* Responsive fix */
+@media (max-width: 1200px) {
+    .col-5-custom {
+        width: 25%; /* 4 columns */
+    }
+}
+
+@media (max-width: 992px) {
+    .col-5-custom {
+        width: 33.3333%; /* 3 columns */
+    }
+}
+
+@media (max-width: 768px) {
+    .col-5-custom {
+        width: 50%; /* 2 columns */
+    }
+}
+
+@media (max-width: 576px) {
+    .col-5-custom {
+        width: 100%; /* 1 column */
+    }
+}
